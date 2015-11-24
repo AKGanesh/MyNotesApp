@@ -1,0 +1,174 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'ios-deploy' ]
+2 info using npm@2.14.7
+3 info using node@v4.2.1
+4 verbose install initial load of C:\Users\ganesha\AppData\Roaming\npm\package.json
+5 verbose readDependencies loading dependencies from C:\Users\ganesha\AppData\Roaming\npm\package.json
+6 silly cache add args [ 'ios-deploy', null ]
+7 verbose cache add spec ios-deploy
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'ios-deploy',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'ios-deploy',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed ios-deploy@*
+10 verbose addNamed "*" is a valid semver range for ios-deploy
+11 silly addNameRange { name: 'ios-deploy', range: '*', hasData: false }
+12 silly mapToRegistry name ios-deploy
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+16 verbose addNameRange registry:https://registry.npmjs.org/ios-deploy not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/ios-deploy
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 3:51:19 PM
+20 verbose request id 47843b6a5e41c2a7
+21 verbose etag "33W06N958TKM5FZSWXU6YS6UE"
+22 http request GET https://registry.npmjs.org/ios-deploy
+23 http 200 https://registry.npmjs.org/ios-deploy
+24 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+24 verbose headers   etag: '"BEW881I38BM5U9LQ4MJ64XZRQ"',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'cache-control': 'max-age=60',
+24 verbose headers   'content-length': '32570',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Tue, 24 Nov 2015 10:24:29 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-sin6920-SIN',
+24 verbose headers   'x-cache': 'MISS',
+24 verbose headers   'x-cache-hits': '0',
+24 verbose headers   'x-timer': 'S1448360669.073017,VS0,VE246',
+24 verbose headers   vary: 'Accept' }
+25 silly get cb [ 200,
+25 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+25 silly get     etag: '"BEW881I38BM5U9LQ4MJ64XZRQ"',
+25 silly get     'content-type': 'application/json',
+25 silly get     'cache-control': 'max-age=60',
+25 silly get     'content-length': '32570',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Tue, 24 Nov 2015 10:24:29 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-sin6920-SIN',
+25 silly get     'x-cache': 'MISS',
+25 silly get     'x-cache-hits': '0',
+25 silly get     'x-timer': 'S1448360669.073017,VS0,VE246',
+25 silly get     vary: 'Accept' } ]
+26 verbose get saving ios-deploy to C:\Users\ganesha\AppData\Roaming\npm-cache\registry.npmjs.org\ios-deploy\.cache.json
+27 silly addNameRange number 2 { name: 'ios-deploy', range: '*', hasData: true }
+28 silly addNameRange versions [ 'ios-deploy',
+28 silly addNameRange   [ '1.0.1',
+28 silly addNameRange     '1.0.2',
+28 silly addNameRange     '1.0.3',
+28 silly addNameRange     '1.0.4',
+28 silly addNameRange     '1.0.5',
+28 silly addNameRange     '1.0.6',
+28 silly addNameRange     '1.0.7',
+28 silly addNameRange     '1.0.8',
+28 silly addNameRange     '1.0.9',
+28 silly addNameRange     '1.1.0',
+28 silly addNameRange     '1.2.0',
+28 silly addNameRange     '1.3.0',
+28 silly addNameRange     '1.3.1',
+28 silly addNameRange     '1.3.2',
+28 silly addNameRange     '1.4.0',
+28 silly addNameRange     '1.5.0',
+28 silly addNameRange     '1.6.0',
+28 silly addNameRange     '1.6.1',
+28 silly addNameRange     '1.6.2',
+28 silly addNameRange     '1.6.3',
+28 silly addNameRange     '1.7.0',
+28 silly addNameRange     '1.8.0',
+28 silly addNameRange     '1.8.1',
+28 silly addNameRange     '1.8.2',
+28 silly addNameRange     '1.8.3' ] ]
+29 silly addNamed ios-deploy@1.8.3
+30 verbose addNamed "1.8.3" is a plain semver version for ios-deploy
+31 silly mapToRegistry name ios-deploy
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry uri https://registry.npmjs.org/ios-deploy
+35 verbose addRemoteTarball https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.3.tgz not in flight; adding
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.3.tgz',
+36 verbose addRemoteTarball   'a796354132a65d2f57df1075d64b2d2365c857e4' ]
+37 info retry fetch attempt 1 at 3:51:20 PM
+38 info attempt registry request try #1 at 3:51:20 PM
+39 http fetch GET https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.3.tgz
+40 http fetch 200 https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.3.tgz
+41 silly fetchAndShaCheck shasum a796354132a65d2f57df1075d64b2d2365c857e4
+42 verbose addTmpTarball C:\Users\ganesha\AppData\Local\Temp\npm-33588-fb0e600f\registry.npmjs.org\ios-deploy\-\ios-deploy-1.8.3.tgz not in flight; adding
+43 verbose addTmpTarball already have metadata; skipping unpack for ios-deploy@1.8.3
+44 silly cache afterAdd ios-deploy@1.8.3
+45 verbose afterAdd C:\Users\ganesha\AppData\Roaming\npm-cache\ios-deploy\1.8.3\package\package.json not in flight; writing
+46 verbose afterAdd C:\Users\ganesha\AppData\Roaming\npm-cache\ios-deploy\1.8.3\package\package.json written
+47 silly install resolved [ { name: 'ios-deploy',
+47 silly install resolved     version: '1.8.3',
+47 silly install resolved     os: [ 'darwin' ],
+47 silly install resolved     description: 'launch iOS apps iOS devices from the command line (Xcode 7)',
+47 silly install resolved     main: 'ios-deploy',
+47 silly install resolved     scripts:
+47 silly install resolved      { preinstall: './src/check_reqs.js && xcodebuild',
+47 silly install resolved        test: 'npm run jshint',
+47 silly install resolved        jshint: 'node node_modules/jshint/bin/jshint src' },
+47 silly install resolved     bin: { 'ios-deploy': './build/Release/ios-deploy' },
+47 silly install resolved     repository:
+47 silly install resolved      { type: 'git',
+47 silly install resolved        url: 'git+https://github.com/phonegap/ios-deploy.git' },
+47 silly install resolved     devDependencies: { jshint: '2.5.8' },
+47 silly install resolved     keywords: [ 'ios-deploy', 'deploy to iOS device' ],
+47 silly install resolved     bugs: { url: 'https://github.com/phonegap/ios-deploy/issues' },
+47 silly install resolved     author: { name: 'Greg Hughes' },
+47 silly install resolved     license: 'GPLv3',
+47 silly install resolved     gitHead: '551cdc58046ab51b8cc0505c01faa1722be04982',
+47 silly install resolved     homepage: 'https://github.com/phonegap/ios-deploy#readme',
+47 silly install resolved     _id: 'ios-deploy@1.8.3',
+47 silly install resolved     _shasum: 'a796354132a65d2f57df1075d64b2d2365c857e4',
+47 silly install resolved     _from: 'ios-deploy@*',
+47 silly install resolved     _npmVersion: '2.14.7',
+47 silly install resolved     _nodeVersion: '4.2.2',
+47 silly install resolved     _npmUser: { name: 'shazron', email: 'shazron@gmail.com' },
+47 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly install resolved     dist:
+47 silly install resolved      { shasum: 'a796354132a65d2f57df1075d64b2d2365c857e4',
+47 silly install resolved        tarball: 'http://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.3.tgz' },
+47 silly install resolved     directories: {},
+47 silly install resolved     _resolved: 'https://registry.npmjs.org/ios-deploy/-/ios-deploy-1.8.3.tgz' } ]
+48 info install ios-deploy@1.8.3 into C:\Users\ganesha\AppData\Roaming\npm
+49 info installOne ios-deploy@1.8.3
+50 verbose installOne of ios-deploy to C:\Users\ganesha\AppData\Roaming\npm not in flight; installing
+51 verbose lock using C:\Users\ganesha\AppData\Roaming\npm-cache\_locks\ios-deploy-3b5fa8cb55135256.lock for C:\Users\ganesha\AppData\Roaming\npm\node_modules\ios-deploy
+52 verbose unlock done using C:\Users\ganesha\AppData\Roaming\npm-cache\_locks\ios-deploy-3b5fa8cb55135256.lock for C:\Users\ganesha\AppData\Roaming\npm\node_modules\ios-deploy
+53 verbose stack Error: Unsupported
+53 verbose stack     at checkPlatform (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:47:14)
+53 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+53 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+53 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:18:7
+53 verbose stack     at checkEngine (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-install-checks\index.js:11:20)
+53 verbose stack     at Array.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\bind-actor.js:15:8)
+53 verbose stack     at LOOP (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:15:14)
+53 verbose stack     at chain (C:\Program Files\nodejs\node_modules\npm\node_modules\slide\lib\chain.js:20:5)
+53 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\install.js:1038:5
+53 verbose stack     at C:\Program Files\nodejs\node_modules\npm\lib\utils\locker.js:39:7
+54 verbose pkgid ios-deploy@1.8.3
+55 verbose cwd E:\Ionic\MyNotes
+56 error Windows_NT 6.1.7601
+57 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "-g" "ios-deploy"
+58 error node v4.2.1
+59 error npm  v2.14.7
+60 error code EBADPLATFORM
+61 error notsup Unsupported
+61 error notsup Not compatible with your operating system or architecture: ios-deploy@1.8.3
+61 error notsup Valid OS:    darwin
+61 error notsup Valid Arch:  any
+61 error notsup Actual OS:   win32
+61 error notsup Actual Arch: x64
+62 verbose exit [ 1, true ]
